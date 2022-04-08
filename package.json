@@ -1,0 +1,22 @@
+{
+  "name": "bookshelfapi",
+  "version": "1.0.0",
+  "description": "Submission belajar membuat aplikasi back-end untuk pemula",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Muhammad ardiyansyah, S.Pd",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.3.2"
+  }
+}
